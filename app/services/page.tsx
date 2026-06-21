@@ -55,7 +55,7 @@ const services = [
     icon: <SportingIcon />,
     name: 'Sporting',
     headline: 'Every play. Every angle.',
-    description: "Broadcast-quality aerial coverage for teams, facilities, and events. The kinetic energy of Nimbetics' cinematic approach translates directly to athletic content — reels that feel like highlights, not documentation.",
+    description: "Broadcast-quality aerial coverage for teams, facilities, and events. The kinetic energy of Spectral Videography's cinematic approach translates directly to athletic content — reels that feel like highlights, not documentation.",
     deliverables: ['Athlete reel coverage', 'Facility showcase', 'Game and event aerial', 'Training camp documentation'],
   },
   {

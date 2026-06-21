@@ -74,8 +74,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <p style={{ fontSize: '11px', fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(245,240,232,0.4)', fontFamily: 'var(--font-body)', marginBottom: '6px' }}>Email</p>
-                <a href="mailto:hello@nimbetics.com" style={{ fontSize: '15px', color: 'var(--color-gold)', fontFamily: 'var(--font-body)', textDecoration: 'none' }}>
-                  hello@nimbetics.com
+                <a href="mailto:hello@spectralvideography.com" style={{ fontSize: '15px', color: 'var(--color-gold)', fontFamily: 'var(--font-body)', textDecoration: 'none' }}>
+                  hello@spectralvideography.com
                 </a>
               </div>
               <div>

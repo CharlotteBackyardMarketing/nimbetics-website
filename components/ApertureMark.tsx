@@ -30,7 +30,7 @@ export default function ApertureMark({ size = 80, color = '#C9A84C', className =
       viewBox={`0 0 ${size} ${size}`}
       fill="none"
       className={className}
-      aria-label="Nimbetics aperture mark"
+      aria-label="Spectral Videography aperture mark"
     >
       {/* Outer ring with gap at 12 o'clock */}
       <path

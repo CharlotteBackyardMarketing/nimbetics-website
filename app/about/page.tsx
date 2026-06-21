@@ -18,7 +18,7 @@ export default function AboutPage() {
         className="about-hero-grid"
       >
         <div>
-          <p className="section-label" style={{ marginBottom: '16px' }}>About Nimbetics</p>
+          <p className="section-label" style={{ marginBottom: '16px' }}>About Spectral Videography</p>
           <h1
             className="font-display"
             style={{ fontSize: 'clamp(32px, 4vw, 52px)', fontWeight: 800, color: '#FAFAFA', lineHeight: 1.15, marginBottom: '24px' }}
@@ -26,7 +26,7 @@ export default function AboutPage() {
             Certified. Precise. Always in service of the frame.
           </h1>
           <p style={{ fontSize: '17px', color: 'rgba(245,240,232,0.85)', fontFamily: 'var(--font-body)', lineHeight: 1.75, marginBottom: '16px' }}>
-            Nimbetics is a Charlotte-based aerial cinematography studio. We exist at the convergence of atmosphere and precision — the cloud&apos;s cinematic halo, the kinetic energy of flight.
+            Spectral Videography is a Charlotte-based aerial cinematography studio. We exist at the convergence of atmosphere and precision — the cloud&apos;s cinematic halo, the kinetic energy of flight.
           </p>
           <p style={{ fontSize: '17px', color: 'rgba(245,240,232,0.85)', fontFamily: 'var(--font-body)', lineHeight: 1.75, marginBottom: '16px' }}>
             Every project is approached with the craft of a film production: deliberate framing, purposeful movement, outputs that look like they cost more than they did. We are the drone partner clients call when they want the work to speak for itself.

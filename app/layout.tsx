@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Nimbetics — Capture what others can't reach.",
+  title: "Spectral Videography — Capture what others can't reach.",
   description: "Charlotte-based aerial drone videography. FAA Part 107 Certified. Real estate, contractors, sporting, and events.",
 };
 

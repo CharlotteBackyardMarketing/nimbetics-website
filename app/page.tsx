@@ -522,7 +522,7 @@ export default function Home() {
                 marginBottom: '16px',
               }}
             >
-              Nimbetics is a Charlotte-based aerial cinematography studio delivering cinematic-grade drone footage for real estate, construction, sport, and events. Every project is approached with production-house discipline — deliberate framing, purposeful movement, outputs that speak for themselves.
+              Spectral Videography is a Charlotte-based aerial cinematography studio delivering cinematic-grade drone footage for real estate, construction, sport, and events. Every project is approached with production-house discipline — deliberate framing, purposeful movement, outputs that speak for themselves.
             </p>
             <p
               style={{
@@ -679,7 +679,7 @@ export default function Home() {
           <div>
             <p style={{ fontSize: '11px', fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(245,240,232,0.4)', marginBottom: '16px', fontFamily: 'var(--font-body)' }}>Contact</p>
             <p className="footer-link" style={{ cursor: 'default' }}>Charlotte, NC</p>
-            <a href="mailto:hello@nimbetics.com" className="footer-link">hello@nimbetics.com</a>
+            <a href="mailto:hello@spectralvideography.com" className="footer-link">hello@spectralvideography.com</a>
             <SocialLinks />
           </div>
         </div>
@@ -699,7 +699,7 @@ export default function Home() {
           }}
         >
           <p style={{ fontSize: '11px', color: 'rgba(245,240,232,0.4)', fontFamily: 'var(--font-body)' }}>
-            © 2026 Nimbetics LLC. All rights reserved.
+            © 2026 Spectral Videography LLC. All rights reserved.
           </p>
           <p style={{ fontSize: '11px', color: 'rgba(245,240,232,0.4)', fontFamily: 'var(--font-body)' }}>
             FAA Part 107 Certified

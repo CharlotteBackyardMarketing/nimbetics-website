@@ -63,7 +63,7 @@ export default function Navbar() {
               textTransform: 'uppercase',
             }}
           >
-            NIMBETICS
+            SPECTRAL VIDEOGRAPHY
           </span>
         </Link>
 
