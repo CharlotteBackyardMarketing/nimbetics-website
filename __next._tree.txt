@@ -1,0 +1,3 @@
+:HL["/nimbetics-website/_next/static/chunks/0ap6xpz7a7eao.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=Cormorant+Garamond:ital,wght@1,300&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"M1-nVC_ZHnAqcaMYKSrYH"}
