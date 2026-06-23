@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import ApertureMark from '@/components/ApertureMark';
+import { supabase } from '@/lib/supabase';
 
 const verticals = ['Real Estate', 'Contractors', 'Sporting', 'Events', 'Other'];
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState('');
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -19,10 +21,18 @@ export default function ContactPage() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // In production: POST to API route / form provider
-    setSubmitted(true);
+    setError('');
+    const { name, email, phone, vertical, message } = form;
+    const { error: sbError } = await supabase
+      .from('inquiries')
+      .insert([{ name, email, phone, vertical, message }]);
+    if (sbError) {
+      setError('Failed to send message. Please try again.');
+    } else {
+      setSubmitted(true);
+    }
   }
 
   const inputStyle: React.CSSProperties = {
@@ -186,6 +196,11 @@ export default function ContactPage() {
                 >
                   Send message
                 </button>
+                {error && (
+                  <p style={{ fontSize: '14px', color: '#f87171', fontFamily: 'var(--font-body)', marginTop: '4px' }}>
+                    {error}
+                  </p>
+                )}
               </form>
             )}
           </div>
